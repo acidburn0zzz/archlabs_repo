@@ -1,10 +1,10 @@
 #!/bin/bash
 
-repo-add archlabs.db.tar.gz *.pkg.tar.xz
-sleep 1
-rm archlabs.db
-sleep 1
-cp archlabs.db.tar.gz archlabs.db
+repo-add archlabs_repo.db.tar.gz *.pkg.tar.xz
+sleep 4
+rm archlabs_repo.db
+sleep 4
+cp archlabs_repo.db.tar.gz archlabs_repo.db
 
 echo "####################################"
 echo "Repo Updated!!"
