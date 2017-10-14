@@ -1,6 +1,6 @@
 #!/bin/bash
 
-repo-add archlabs_repo.db.tar.gz *.pkg.tar.xz --sign --verify
+repo-add archlabs_repo.db.tar.gz *.pkg.tar.xz --sign
 sleep 4
 rm archlabs_repo.db
 sleep 4
